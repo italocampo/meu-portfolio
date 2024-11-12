@@ -210,7 +210,7 @@ section #especialidades .flex {
   border-radius: 20px;
   margin-top: 45px;
   transition: 0.2s;
-}
+ }
 
 #especialidades .especialidades-box:hover {
   transform: scale(1.05);
@@ -229,31 +229,31 @@ section #especialidades .flex {
 
 /* ESTILO SOBRE */
 
-section.sobre {
+section#sobre {
   padding: 80px 4%;
 }
 
-section.sobre .flex {
+section#sobre .flex {
   align-items: center;
   gap: 60px;
 }
 
-.sobre .txt-sobre {
+#sobre .txt-sobre {
   color: #fff;
 }
 
-.sobre .txt-sobre h2 {
+#sobre .txt-sobre h2 {
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 30px;
 }
 
-.sobre .txt-sobre h2 span {
+#sobre .txt-sobre h2 span {
   color: #00ff08;
   display: block;
 }
 
-.sobre .txt-sobre p {
+#sobre .txt-sobre p {
   margin: 20px 0;
   text-align: justify;
 }
@@ -272,12 +272,12 @@ section.sobre .flex {
 
 /*ESTILO DO PORTFÓLIO*/
 
-section.portfolio {
+section#portfolio {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #181818;
 }
 
-section.portfolio .flex {
+section#portfolio .flex {
   justify-content: space-around;
   margin-top: 60px;
 }
