@@ -175,16 +175,20 @@
 
         <section class="formulario">
             <div class="interface">
-                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Nome completo" required>
-                    <input type="text" name="" id="" placeholder="E-mail" required>
-                    <input type="text" name="" id="" placeholder="Contato">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-                </form>
-            </div><!--interface-->
-        </section><!--formulario-->
+              <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+              <form action="https://formspree.io/f/xdkopbgg" method="POST">
+                <!-- Substitua {seu-endpoint} pelo ID gerado no Formspree -->
+                <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <input type="text" name="contact" id="contact" placeholder="Contato">
+                <textarea name="message" id="message" placeholder="Sua mensagem" required></textarea>
+                <div class="btn-enviar">
+                  <input type="submit" value="ENVIAR">
+                </div>
+              </form>
+            </div>
+          </section>
+          
     </main>
 
     <footer> <!-- início rodapé-->
