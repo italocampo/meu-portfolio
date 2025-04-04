@@ -1,4 +1,4 @@
-document.getElementById('formulario').addEventListener('submit', async (e) => {
+document.getElementById('formCadastro').addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const formData = new FormData(e.target);
